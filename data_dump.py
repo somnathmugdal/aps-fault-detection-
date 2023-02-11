@@ -15,7 +15,7 @@ Collection_Name = "sensor"
 Data_file_path = "/config/workspace/aps_failure_training_set1.csv"
 
 if  __name__ == "__main__":
-    df = pd.read_csv(Data_file_path)
+    df = pd.read_csv(Data_file_path)   
     print(f"Rows & Columns : {df.shape}")
 
 # Convert dataframe to JSON to dump the data into MongoDB
