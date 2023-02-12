@@ -1,5 +1,8 @@
+from dataclasses import dataclass
+
+
 class DataInjectionArtifact:
-    pass
+    feature_store_file_path 
 class DataValidationArtifact:...
 class DataTransformationArtifact:...
 class ModelTrainerArtifact:...
